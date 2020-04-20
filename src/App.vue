@@ -30,25 +30,6 @@
             pointsGeo,
             theMap,
         },
-        data() {
-            return {
-
-
-                placemarks: [],
-            }
-        },
-        computed: {
-
-
-            returnPlacemarkCoordsArr: function () {
-                return [
-                    this.geolocationData.latitude,
-                    this.geolocationData.longitude
-                ]
-            },
-        },
-        methods: {},
-
     }
 </script>
 

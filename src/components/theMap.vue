@@ -28,6 +28,8 @@
             },
 
             init: function () {
+
+
                 let myMap = new window.ymaps.Map("map", this.returnMapObj);
                 // let myPlacemark = new window.ymaps.Placemark(this.returnMapObj.center, {
                 //     content: 'Мое местоположение',
